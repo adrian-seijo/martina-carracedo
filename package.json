@@ -1,0 +1,27 @@
+{
+  "name": "martina-carracedo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "npm run build && next export"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.5",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/preset-react": "^7.24.7",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "frontmatter-markdown-loader": "^3.7.0"
+  }
+}
